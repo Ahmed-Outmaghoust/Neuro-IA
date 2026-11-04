@@ -231,7 +231,7 @@ input[type="range"]::-moz-range-thumb { width: 12px; height: 12px; border: 2px s
 .training-network { margin-top: 17px; padding: 8px 17px 0; background: #19231f; overflow: hidden; }
 .training-network .network-scene { width: 760px; }
 .training-network .network-stage .ss-stage { border-color: transparent; border-radius: 0; background: transparent; }
-.training-observation { margin-top: 18px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 13px 15px; background: #f1f2eb; border-inline-start: 3px solid #b96c4e; }
+.training-observation { margin-top: 18px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 13px 15px; background: #f1f2eb; }
 .observation-label { display: grid; gap: 5px; color: #69736a; font-size: 11px; }
 .observation-label b { font-size: 10px; }
 .mistake-tag { color: #a85f46; }
