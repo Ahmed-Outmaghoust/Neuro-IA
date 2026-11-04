@@ -1,0 +1,29 @@
+{
+  "name": "نَسَق — ورشة النمط الشبكي",
+  "description": "تعلم الشبكات العصبية عبر إشارات حيّة وتجارب قصيرة باللغة العربية.",
+  "colors": {
+    "forest": "#151d1c",
+    "forest-raised": "#1c2825",
+    "limestone": "#e8e1d1",
+    "paper": "#fcfbf7",
+    "graphite": "#202725",
+    "quiet-green-grey": "#6f7771",
+    "mint-signal": "#71d1ae",
+    "clay-negative": "#d87959",
+    "inference-gold": "#e2bd69",
+    "seam": "#d9d8cf"
+  },
+  "typography": {
+    "display": { "fontFamily": "Segoe UI, Tahoma, Arial, sans-serif", "fontSize": "clamp(44px, 5.2vw, 74px)", "fontWeight": 700, "lineHeight": 1.2, "letterSpacing": "-0.055em" },
+    "headline": { "fontFamily": "Segoe UI, Tahoma, Arial, sans-serif", "fontSize": "clamp(27px, 3vw, 39px)", "fontWeight": 700, "lineHeight": 1.35 },
+    "body": { "fontFamily": "Segoe UI, Tahoma, Arial, sans-serif", "fontSize": "15px", "fontWeight": 400, "lineHeight": 1.85 },
+    "label": { "fontFamily": "Segoe UI, Tahoma, Arial, sans-serif", "fontSize": "11px", "fontWeight": 700, "lineHeight": 1.4 }
+  },
+  "rounded": { "control": "7px", "network-stage": "13px", "network-node": "50%" },
+  "spacing": { "xs": "4px", "sm": "8px", "md": "16px", "lg": "24px", "xl": "40px", "section": "76px" },
+  "components": {
+    "button-primary": { "backgroundColor": "{colors.mint-signal}", "textColor": "{colors.forest}", "rounded": "{rounded.control}", "height": "46px", "padding": "0 17px" },
+    "button-primary-hover": { "backgroundColor": "#91e4c2" },
+    "button-secondary": { "backgroundColor": "transparent", "textColor": "{colors.graphite}", "rounded": "{rounded.control}", "height": "46px", "padding": "0 17px" }
+  }
+}
